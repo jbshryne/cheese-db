@@ -7,7 +7,7 @@ app.use(express.urlencoded({ extended: true }));
 const cheeseController = require('./controllers/cheeseController')
 
 app.get("/", async (req, res) => {
-  res.send("Then cheese me up, woman!");
+  res.send("I wear the cheese... it does not wear me!");
 });
 
 app.use("/cheeses", cheeseController)
